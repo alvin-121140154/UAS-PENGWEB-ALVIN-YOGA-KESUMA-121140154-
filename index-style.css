@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+button, a {
+    text-decoration: none;
+    background-color: azure;
+    border: 1px solid gray;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input, form select, form button, form label {
+    margin-bottom: 5px;
+}
